@@ -1,0 +1,12 @@
+r = open('sub.txt','w')
+
+r.write(str(3))
+r.write('\n')
+r.write(str(0))
+r.write('\n')
+r.write(str(3))
+r.write('\n')
+r.write(str(1))
+r.write(' ')
+r.write(str(2))
+r.close()
